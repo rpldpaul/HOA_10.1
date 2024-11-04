@@ -1,0 +1,15 @@
+---
+- hosts: elasticsearch
+  become: true
+  roles:
+    - ElasticSearch
+
+- hosts: kibana
+  become: true
+  roles: 
+    - Kibana
+
+- hosts: logstash
+  become: true
+  roles:
+    - Logstash

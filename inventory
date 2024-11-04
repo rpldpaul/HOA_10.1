@@ -1,0 +1,6 @@
+[kibana]
+192.168.56.106
+[logstash]
+192.168.56.106
+[elasticsearch]
+192.168.56.109 ansible_user=pbaltazar
